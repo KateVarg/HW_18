@@ -1,6 +1,6 @@
 import pytest
 from selene import browser
-from utils import attach
+from demowebshop_test.utils import attach
 
 
 @pytest.fixture(scope="function", autouse=True)

@@ -1,8 +1,6 @@
 import allure
 from allure_commons.types import AttachmentType
-import requests
-import logging
-import json
+
 
 def add_screenshot(browser):
     png = browser.driver.get_screenshot_as_png()
