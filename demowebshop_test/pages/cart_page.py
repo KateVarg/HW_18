@@ -34,3 +34,6 @@ class AddProduct:
             browser.element('.product-name').should(have.text(name_product))
 
         return self
+
+
+add_product_api = AddProduct()
